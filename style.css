@@ -1,5 +1,6 @@
 body {
     background-color: #1f1f1f;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .card {
@@ -48,12 +49,14 @@ body {
 }
 
 .weather-icon {
-    width: 170px;
+    width: 130px;
     margin-top: 30px;
+    align-items: center;
+    margin-bottom: -20px;
 }
 
 .weather h1 {
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 500;
 }
 
@@ -93,4 +96,17 @@ body {
     font-size: 23px;
     margin-top: 0px;
     height: 33.41px;
+}
+
+.weather {
+    display: none;
+}
+
+.error {
+    text-align: left;
+    margin-left: 10px;
+    font-size: 18px;
+    margin-top: 10px;
+    color: rgb(180, 1, 1);
+    display: none;
 }
